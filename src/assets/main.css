@@ -1,0 +1,10 @@
+* {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html {
+    background-color: black;
+}
