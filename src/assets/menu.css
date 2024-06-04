@@ -1,0 +1,35 @@
+.main-menu {
+  text-align: center;
+  background-color: #43465A;
+  width: 80%;
+  justify-content: center;
+}
+.main-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+.main-menu-container-body {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-menu {
+    width: 100%;
+  }
+  .main-menu-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .main-menu-container-container {
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

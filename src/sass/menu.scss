@@ -1,0 +1,36 @@
+@import "colors.scss" ;
+
+.main-menu{
+    text-align: center;
+    background-color: $black-Surface;
+    width: 80%;
+
+    justify-content: center;
+    &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        border-collapse: collapse;
+        &-body{
+            position: fixed;
+            bottom: 0;
+            padding-bottom: 0.5em;
+            width: 100%;
+        }
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .main-menu{
+        width: 100%;
+        &-container{
+            flex-direction: row;
+            justify-content: space-around;
+            &-container{
+                position: relative;
+            }
+        }
+    }
+}

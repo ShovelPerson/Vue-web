@@ -1,5 +1,6 @@
 {
     "message": {
-      "hello": "oi"
+      "hello": "oi",
+      "changeLocale":"Mudar Idioma"
     }
 }
