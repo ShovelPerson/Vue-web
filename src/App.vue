@@ -24,6 +24,6 @@ import NavMenu from './components/Menu.vue'
   opacity: 0;
 }
 .fade-enter-active,.fade-leave-active{
-  transition: opacity 0.3s ease-out ;
+  transition: opacity 2s ease-out ;
 }
 </style>

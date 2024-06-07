@@ -4,6 +4,7 @@
   padding: 0;
   color: #C6D0F5;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 html {
@@ -23,6 +24,11 @@ button {
   padding: 0.5em 1em;
   border-radius: 0.5em;
   cursor: pointer;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

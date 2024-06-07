@@ -1,0 +1,47 @@
+@import "colors.scss" ;
+@mixin tableStuff{
+    border: 50px;
+    background-color: $darkBlue;
+    width: 80vw;
+   
+    }
+    
+    .home {
+        table{
+            @include tableStuff;
+            }
+    
+    th{
+        @include tableStuff;
+        display: flex;
+
+    }
+    td {
+        @include tableStuff;
+        width: inherit;
+    }
+    &-text{
+       display: flex;
+         flex-direction: column;
+    //  /   flex-direction: column;
+    //    justify-content: flex-start;
+    }
+
+
+}
+
+@media only screen and (max-width:768px){
+    .home {
+        table, th, td {
+            border: 50px;
+            background-color: green;
+        }
+        &-text{
+            display: flex;
+            flex-direction: row;
+        }
+    
+    }
+    
+    
+}

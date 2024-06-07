@@ -1,6 +1,9 @@
 {
     "message": {
       "hello": "Hellooooo",
-      "changeLocale": "Change Language"
+      "changeLocale": "Change Language",
+      "aboutPage": "this is an aboutPage",
+      "AboutMe":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo euismod nunc in finibus. Ut dictum risus id mollis pellentesque. Nulla et nisi ac mauris vulputate finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse facilisis augue sit amet viverra varius. Maecenas egestas purus in gravida euismod. Duis imperdiet viverra libero, vel viverra purus bibendum porta. Duis est augue, condimentum non efficitur ut, rutrum luctus mi. Vestibulum neque nisl, gravida ac erat eu, viverra aliquam justo. Proin aliquam lacus sem, in eleifend urna bibendum a. "
+
     }
 }

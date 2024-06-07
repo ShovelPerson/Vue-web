@@ -2,11 +2,14 @@
   text-align: center;
   background-color: #43465A;
   width: 80%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  border-radius: 10px 10px 10px 10px;
 }
 .main-menu-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   flex-direction: column;
@@ -15,8 +18,13 @@
 .main-menu-container-body {
   position: fixed;
   bottom: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 2vh;
   width: 100%;
+  font-size: 100%;
+}
+.main-menu-button {
+  background-color: #1E66F5;
+  color: #1E1E2E;
 }
 
 @media only screen and (max-width: 600px) {

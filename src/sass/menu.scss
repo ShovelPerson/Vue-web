@@ -1,14 +1,17 @@
-@import "colors.scss" ;
+@import "colors.scss";
 
 .main-menu{
     text-align: center;
     background-color: $black-Surface;
     width: 80%;
-
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
+
+    border-radius: 10px 10px 10px 10px;
     &-container{
         display: flex;
-        justify-content: center;
         align-items: center;
         width: 100%;
         flex-direction: column;
@@ -16,11 +19,15 @@
         &-body{
             position: fixed;
             bottom: 0;
-            padding-bottom: 0.5em;
+            padding-bottom: 2vh;
             width: 100%;
+            font-size: 100%;
         }
     }
-
+    &-button{
+        background-color: $darkBlue;
+        color: $black;
+    }
 }
 @media only screen and (max-width: 600px) {
     .main-menu{

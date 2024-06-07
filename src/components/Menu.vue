@@ -19,9 +19,12 @@ const changeLocale = () => {
       <RouterLink to="/">
         <button > {{ $t('message.hello') }}</button>
       </RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/about">
+        <button class="main-menu-button"> stuff </button>
+      </RouterLink>
     </nav>
   </div>
 </div>
   </div>
+  
 </template>
